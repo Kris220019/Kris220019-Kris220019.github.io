@@ -1,0 +1,15 @@
+.form-check {
+    margin-left: 5px;
+    padding-top: 5px;
+}
+
+.errorlengthFilter{
+    border-color: red;
+    margin-left: 5px;
+    padding-top: 5px;
+    color: red;
+}
+
+.hidden {
+    display: none;
+}
