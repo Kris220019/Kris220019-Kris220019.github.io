@@ -45,9 +45,9 @@ fetch(proxyUrl + targetUrl)
     substringFilterButton.addEventListener("click", function () {
       data = List.data.filter((item) => {
         if (registerSensitiveElement.checked) {
-          return item.startsWith(inputElement.value.trim());
+          return item.includes(inputElement.value.trim());
         } else {
-          return item.toLowerCase().startsWith(inputElement.value.trim());
+          return item.toLowerCase().includes(inputElement.value.toLowerCase().trim());
         }
       });
       upgradeView(data);
